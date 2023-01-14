@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Heebo';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1 {
+  font-family: 'Heebo', Bold;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+h2 {
+  font-family: 'Heebo', Bold;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+h3 {
+  font-family: 'Heebo', Bold;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}.h4 {
+  font-family: 'Heebo', Medium;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+.h5 {
+  font-family: 'Heebo', Regular;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+.p1 {
+  font-family: 'Heebo', Regular;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+.p2 {
+  font-family: 'Heebo', Regular;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+.p3 {
+  font-family: 'Heebo', light;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  margin: auto;
+  vertical-align: middle;
+}

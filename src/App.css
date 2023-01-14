@@ -1,0 +1,152 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  height: 100vh;
+  width: 100vw;
+  background-color: #2A48BF;
+  direction: rtl;
+}
+
+.left-column {
+  padding: 30px 5% 2% 30px;
+  width: 80%;
+  justify-content: left;
+  background-color: #EDF5FA;
+}
+
+.right-column{
+  width: 20%;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: right;
+  color: white;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 70%;
+  margin-top: 40px;
+}
+
+.user-data {
+  margin-top: 10px;
+  direction: rtl;
+  margin-right: 5%;
+}
+.btn-signout{
+  display: flex;
+  align-content: right;
+  direction: rtl;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+.btn-signout-icon{
+  height:30px;
+  width: 30px;
+  font-size: 20px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  align-content: center;
+}
+.right-column ul {
+  display: flex;
+  flex-direction: column;
+  padding:0 ;
+  align-items: right;
+}
+li {
+  height:40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  /* align-items: center; */
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 10px;
+  direction: rtl;
+}
+
+.role-top{
+  display: flex;
+  align-items: center;
+}
+.role-bottom{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.subRoles-ul{
+  padding: 5px 10px 5px 0px;
+}
+.subRoles-li{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 30px
+}
+
+.role-icon {
+  width: 70%;
+  height: auto;
+}
+.role-icon-circle {
+  font-size: 20px;
+  background-color: #F97E57;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+  align-content: center;
+  width: 25px;
+  height: 25px;
+}
+.sub-role-icon {
+  width: 70%;
+  height: auto;
+}
+.sub-role-icon-circle{
+  font-size: 20px;
+  background-color: #F97E57;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 5px;
+  align-content: center;
+  width: 25px;
+  height: 25px;
+}
+.user-data select{
+  display: flex;
+  flex-direction: column;
+  background-color:  #2A48BF;
+  color: white;
+  border-width: 0;
+  width:90%;
+  font-size: 16px;
+}
+.role{
+  display: flex;
+  flex-direction: column;
+  background-color:  #2A48BF;
+  color: white;
+}
+.role.selected {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #2A48BF;
+}
+
+.role-icon.icon-selected {
+  background-color: #2A48BF;
+}
